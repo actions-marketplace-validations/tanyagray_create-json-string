@@ -1,5 +1,5 @@
 name: 'create-json-string'
-description: 'Create an environment file in JSON format'
+description: 'Create a JSON string from a set of provided inputs'
 outputs:
   json_string:
     description: 'A JSON string of the provided values'

@@ -1,9 +1,6 @@
 const core = require('@actions/core');
-const fs = require('fs');
 
 const inputPrefix = "INPUT_"; // This is the prefix used by GitHub Actions
-const path = require("path");
-const fullPath = path.join(process.env.GITHUB_WORKSPACE, fileName);
 
 var obj = {};
 
